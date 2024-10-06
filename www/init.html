@@ -31,6 +31,11 @@
       </div>
     </nav>
 
+    <!-- Botón para cambiar de GIF a Video -->
+    <div class="d-grid gap-2">
+        <button id="startVideoBtn" class="btn btn-primary" type="button">Ver Presentación</button>
+    </div>
+    
     <!-- Contenedor del GIF -->
     <div id="gifContainer" class="text-center">
         <img src="videos/Presentación1.gif" alt="Presentación GIF" class="img-fluid">
@@ -44,10 +49,6 @@
         </video>
     </div>
 
-    <!-- Botón para cambiar de GIF a Video -->
-    <div class="d-grid gap-2">
-        <button id="startVideoBtn" class="btn btn-primary" type="button">Ver Presentación</button>
-    </div>
 
     <!-- Script para manejar la lógica -->
     <script>
@@ -63,7 +64,7 @@
             // Después de 5 segundos, redirigir a index.html
             setTimeout(function() {
                 window.location.href = "index.html";
-            }, 5000);  // 5000 ms = 5 segundos
+            }, 6000);  // 5000 ms = 5 segundos
         });
     </script>
 </body>
