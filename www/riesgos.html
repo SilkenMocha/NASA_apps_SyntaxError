@@ -118,16 +118,22 @@
         </div>
     </div>
     <!--Intento de poner Carousel-->>
-    <div id="carouselExample" class="carousel slide">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="d-block w-100 text-center">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
           </div>
           <div class="carousel-item">
-            <p class="card-text">Esta es la segunda diapositiva.</p>
+            <div class="d-block w-100 text-center">
+              <p class="card-text">Esta es la segunda diapositiva.</p>
+            </div>
           </div>
           <div class="carousel-item">
-            <p class="card-text">Esta es la tercera diapositiva.</p>
+            <div class="d-block w-100 text-center">
+              <p class="card-text">Esta es la tercera diapositiva.</p>
+            </div>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -138,6 +144,7 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+      </div>
       </div>
     </body>
 </html>
