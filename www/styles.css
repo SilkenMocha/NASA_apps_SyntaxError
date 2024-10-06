@@ -1,0 +1,24 @@
+/* styles.css */
+
+/* Tamaños de texto adaptativos */
+body {
+    font-size: 16px; /* Tamaño base */
+}
+
+/* Cambiar el tamaño del texto en pantallas pequeñas */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Tamaño más pequeño para dispositivos móviles */
+    }
+
+    .carousel-item {
+        padding: 10px; /* Aumenta el padding para el texto en móviles */
+    }
+}
+
+/* Ajustes para pantallas más pequeñas */
+@media (max-width: 576px) {
+    body {
+        font-size: 12px; /* Tamaño aún más pequeño */
+    }
+}
