@@ -1,6 +1,13 @@
 {
   "hosting": {
     "public": "www",
+    
+    "rewrites": [
+      {
+        "source": "/",
+        "destination": "/init.html"
+      } ],
+
     "ignore": [
       "firebase.json",
       "**/.*",
