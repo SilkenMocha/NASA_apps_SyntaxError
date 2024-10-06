@@ -6,7 +6,8 @@
       {
         "source": "/",
         "destination": "/init.html"
-      } ],
+      }
+    ],
 
     "ignore": [
       "firebase.json",
@@ -15,3 +16,5 @@
     ]
   }
 }
+
+
