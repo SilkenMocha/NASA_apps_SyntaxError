@@ -1,24 +1,51 @@
-/* styles.css */
-
-/* Tamaños de texto adaptativos */
+/* Estilo general para textos */
 body {
-    font-size: 16px; /* Tamaño base */
-}
-
-/* Cambiar el tamaño del texto en pantallas pequeñas */
-@media (max-width: 768px) {
+    font-size: 16px; /* Ajusta el tamaño base de fuente */
+    line-height: 1.6; /* Espaciado entre líneas */
+  }
+  
+  /* Para pantallas más pequeñas (móviles) */
+  @media (max-width: 576px) {
     body {
-        font-size: 14px; /* Tamaño más pequeño para dispositivos móviles */
+      font-size: 14px;
     }
-
-    .carousel-item {
-        padding: 10px; /* Aumenta el padding para el texto en móviles */
+  
+    h1 {
+      font-size: 24px;
     }
-}
-
-/* Ajustes para pantallas más pequeñas */
-@media (max-width: 576px) {
+  
+    p {
+      margin-bottom: 15px; /* Ajusta el espaciado */
+    }
+  }
+  
+  /* Para pantallas medianas */
+  @media (min-width: 577px) and (max-width: 768px) {
     body {
-        font-size: 12px; /* Tamaño aún más pequeño */
+      font-size: 15px;
     }
-}
+  
+    h1 {
+      font-size: 28px;
+    }
+  
+    p {
+      margin-bottom: 18px;
+    }
+  }
+  
+  /* Para pantallas grandes */
+  @media (min-width: 769px) {
+    body {
+      font-size: 16px;
+    }
+  
+    h1 {
+      font-size: 32px;
+    }
+  
+    p {
+      margin-bottom: 20px;
+    }
+  }
+  
